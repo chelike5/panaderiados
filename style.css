@@ -456,6 +456,193 @@ body{
 }
 
 
+@media screen and (max-width:374px) {
+    body{
+        max-width: 374px;
+        height: 100%;             
+        background: linear-gradient(45deg, var(--green-dark), var(--gold), var(--green), var(--green-dark));  
+        background-size: cover;   
+        min-height: 100vh;         
+
+    }
+
+    .abrir-menu, .cerrar-menu{
+        display: block;
+        
+    }
+    .navbar{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        opacity: 0;
+        visibility: hidden;
+        gap: 1rem;
+        top: 0;
+        left: 0;
+        background: var(--black);
+        width: 250px;padding: 2rem;
+        box-shadow: 0 0 0 100vmax var(--green-dark-opacity);
+        
+
+    }
+    
+    .navbar.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+    .navbar-ul{
+        flex-direction: column;
+    }
+    .main{                
+        min-width: 350px;
+        max-width: 374px;
+        height: 100vh;
+        
+    }
+    .container-pan, .container-charcut, .container-varios{
+        background: linear-gradient(45deg, var(--green-dark), var(--gold), var(--green), var(--green-dark));
+        width: 100%;
+        padding-top: 1rem;
+        
+    }
+    .container-charcut, .container-varios{
+        display: none;
+    }
+
+
+    
+    h2{
+        background: var(--green-dark);
+        padding: 1rem;
+        text-align: center;
+        font-size: 25px;
+        color: #DAAA10;
+        text-transform: uppercase;
+        border: 2px var(--gold) solid;
+        border-radius: 25px;
+
+    }
+    .pan-container, .charcut-container, .variados-container{
+        width: 100%;               
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+        padding: 0.5rem;
+        gap: 0.25rem;
+        
+        
+    }
+    .card-panes, .card-charcut, .card-varios{
+        min-width: 320px;
+        max-width: 365px;
+        height: 250px;  
+        border-radius: 20px 20px 20px 20px;                     
+        background: var(--black);
+        
+        
+       
+    }
+    img{
+        width: 100%;
+        height: 165px;
+        border-radius: 20px;
+    }
+    .detalles{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-bottom: 0.5rem;
+        
+    }
+    h3{
+        font-size: 16px;
+        color: var(--gold);
+    }
+    p{
+        color: var(--green);
+    }
+    .boton-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .comprar{
+        background: var(--green);
+        padding: 0.20rem 0.5rem;
+        border-radius: 15px;
+        cursor: pointer;
+        border: none;
+
+    }
+    .navbar .container.activo{
+        display: block;
+    }
+    .redes{
+        width: 100%;
+        height: 50px;
+        border: 3px var(--black) solid;
+        border-radius: 20px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        background: linear-gradient(45deg, var(--green-dark), var(--gold), var(--green), var(--green-dark));
+    }
+
+    .fa-brands{
+      font-size: 30px;
+      color: var(--facebook);
+     
+      
+    }
+    .fa-square-whatsapp{
+        color: var(--green);
+        
+    }
+    .fa-tiktok{
+        color: var(--black);
+    }
+    .fa-square-instagram{
+        color: var(--instagram);
+    }
+    footer{
+        padding: 1rem;        
+        width: 100%;
+        background: var(--black);
+        border-radius: 15px;
+    }
+    .direccion-container{
+        
+        width: 100%;
+    }
+    h4{
+        text-align: center;
+        text-transform: uppercase;
+        color: var(--gold);
+    }
+    h5{
+        color: white;
+        text-align: center;
+        font-size: 10px;
+        padding: 0.5rem;
+    }
+    .barra{
+        width: 80%;
+        height: 3px;
+        background: var(--gold);
+        margin: auto;
+    }
+    h6{
+        text-align: center;
+        color: white;
+        padding: 0.5rem;
+        font-size: 10px;
+    }        
+    
+}
+
+
 
 
 
