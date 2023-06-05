@@ -158,7 +158,7 @@ body{
     .card-panes, .card-charcut, .card-varios{
         min-width: 250px;
         max-width: 750px;
-        height: 350px;                       
+        height: 200px;                       
         background: var(--black);
         border-radius: 20px;
         
@@ -167,7 +167,7 @@ body{
     }
     img{
         width: 100%;
-        height: 240px;
+        height: 90px;
         border-radius: 20px;
     }
     .detalles{
@@ -348,7 +348,7 @@ body{
     .card-panes, .card-charcut, .card-varios{
         min-width: 180px;
         max-width: 550px;
-        height: 350px;  
+        height: 220px;  
         border-radius: 20px 20px 20px 20px;                     
         background: var(--black);
         
@@ -357,7 +357,7 @@ body{
     }
     img{
         width: 100%;
-        height: 250px;
+        height: 140px;
         border-radius: 20px;
     }
     .detalles{
@@ -424,6 +424,9 @@ body{
         width: 100%;
         background: var(--black);
         border-radius: 15px;
+        margin-top: 1rem;
+       
+        
     }
     .direccion-container{
         
@@ -533,9 +536,9 @@ body{
         
     }
     .card-panes, .card-charcut, .card-varios{
-        min-width: 320px;
+        min-width: 150px;
         max-width: 365px;
-        height: 250px;  
+        height: 220px;  
         border-radius: 20px 20px 20px 20px;                     
         background: var(--black);
         
@@ -544,7 +547,7 @@ body{
     }
     img{
         width: 100%;
-        height: 165px;
+        height: 130px;
         border-radius: 20px;
     }
     .detalles{
@@ -611,6 +614,9 @@ body{
         width: 100%;
         background: var(--black);
         border-radius: 15px;
+        margin-top: 1rem;
+   
+       
     }
     .direccion-container{
         
